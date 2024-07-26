@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumTest {
     public static void main(String[] args) {
         // Establecer la propiedad del driver de Chrome
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chrome.exe");
+        System.setProperty("webdriver.chrome.driver", "./src/test/resources/chrome.exe");
 
         // Inicializar el navegador
         WebDriver driver = new ChromeDriver();
